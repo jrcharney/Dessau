@@ -4,7 +4,15 @@ Dessau
 No-Frills From-Scratch Software Building for people who just want to make software with what they have available.
 
 ## What's in a name?
-Dessau is the city in Germany where the famous Bauhaus school of architectural design between 1925 and 1932.  It originally was established in Weimar in 1919, but the city of Weimar until political medelling forced them to relocate in 1925 and ultimately close in 1933 after a short relocation to Berlin when the you-know-whos were taking over.
+Dessau is the city in Germany where the famous Bauhaus school of architectural design was established between 1925 and 1932.  It originally was established in Weimar in 1919, but the political medelling in Germany forced them to relocate in 1925 and ultimately close in 1933 after a short relocation to Berlin in 1932 when the you-know-whos were taking over.
+
+Many of the critics of Bauhaus, most of whome where supporters of the Third Reich, called the Bauhaus designs "un-German", when actually they were ahead of their time for that part of the world.  Fortunately, some of the ex-Bauhaus alumns relocated to the United States, and later back to post-war Germany and later Israel to build all sorts of Creatavists and Expressionist archtectural designs that would be come popular throughout the 20th Century.  Even the famous architect Frank Llyod Wright took interest in this style in many of the homes he built throughout his lifetime.
+
+The most prominant features included flat roofs, flat walls, lots of windows, and in some cases multi-levels.  You would hardly believe this was a style that was developed in such a time period considering all the events that occured around it and Germany using that Anitqua-Fraktur font that everyone seems to associate with Oktoberfest these days.
+
+In similar criticism, I've had run into some people who are like "Don't use X to make Y. Use Z."  The problem is Z requires about 100 or so other steps in the process.  Then I got even more flack when I never used Z or didn't compile it the way other people liked it.
+
+Software is a lot like art.  Some people use a brush, some people use a chisel.  Some people are just weird enough to douse themselves with a bucket of paint naked and run into a big canvas. I'm a fan of minimalism.  A pencil is probably the simplest tool you can use to make art with, but also the most functional.  And that's what Dessau is really about.  Making good art,or in this case software, without going overboard.
 
 I had considered calling this project Bauhaus, but there's already a [software project](http://www.bauhaus-stuttgart.de/bauhaus/index-english.html) with that name. Thus I had to think of a different name. (Naming things is hard! I sat here for nearly two hours finding something inspirational!)
 
