@@ -39,3 +39,27 @@ One of the scripts DEssau will include is a script that installs the Chromium Br
 Dessau scripts will help with the creation of Rigel, Kang, and Kodos by constructing the tools without toiling with third party stuff unless it is easily installed as well.
 
 Basically, if it takes more than a `curl | tar` combo or a `git clone` command to get the software, your working too hard to construct it.  Even more so if the next step after going to the folder the software is in isn't `./configure && make && sudo make install && sudo ldconfig` or `mkdir build; cd build; cmake .. && make && sudo make install && sudo ldconfig`.  However it's made, it shouldn't be rocket science unless you get the software from NASA for making a rocket!
+
+## Software Roster
+As temping as it is to install faster tools, if you hadn't intended on installing something massive to replace what you had intended on using to do the software build you wanted, don't do it.  When learning how to fly an airplaine it is important to know how and why airplanes fly and how to fix the mechanical parts if they break.  It's not important to know how to make your own LEDs to use in the instrumentation panels.
+
+GCC is readily avaiable.  Its like the toolbox of tools you can use to build, fix, or customize the airplane.  When someone suggest using Clang or Linario, it is like going to the hardware store and meeting the most shady sales person who is trying sell you an expensive power tool that only does one thing thatcould replace the tools you have when you can do the same job and other things with the set of screwdrivers you already have, but just need to go to the shop to pick up just a specialty screwdriver to add to your collection.
+
+Speed does not necessarily imply reliability.  And complexity does not equate to versatility either.  In a world where hard disk space and memory are measured in gigabytes in stead of kilobytes, slow builds or slow running isn't necessarily the fault of the tools used to make the software but rather bad programming practices that make for slower clunkier software.  Think about that next time you want to build something gigantic that runs like something small.
+
+So here's the general list of things we'll use.
+
+* GCC (as opposed to Clang or Linario)
+* python
+* perl
+* GTK+
+* bash
+* sed & awk (gawk?)
+* curl (we could use wget, but curl has more functionality.)
+* tar, gunzip, unzip, bunzip2, unxz
+* make & CMake
+* git (used with Github content and git repositories)
+* Mercurial (used with Bitbucket content and Mercurial (hg) repositories)
+* Subversion & CVS (though I prefer curl, git, or hg)
+
+We can do cross compiling for the heavy stuff, but most of the light stuff can be done on the same computer we are working on.
